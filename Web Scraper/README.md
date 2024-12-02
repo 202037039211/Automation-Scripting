@@ -12,4 +12,4 @@ This script scrapes data from a given URL. It fetches the title and the first th
 To install the required libraries, run:
 ```bash
 pip install requests beautifulsoup4 pandas
-
+```

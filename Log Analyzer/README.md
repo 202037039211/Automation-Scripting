@@ -21,4 +21,3 @@ This script parses a server log file, analyzes the traffic and error data, and g
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-

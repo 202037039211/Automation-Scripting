@@ -28,4 +28,3 @@ This Python tool helps you organize files in a directory by renaming them based 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-

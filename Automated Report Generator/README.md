@@ -10,4 +10,4 @@ This script generates a system health report by gathering system metrics like CP
 To install the required library, run:
 ```bash
 pip install psutil
-
+```

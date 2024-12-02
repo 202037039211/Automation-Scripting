@@ -14,11 +14,12 @@ This Python script is designed to clean data in CSV or Excel files by:
 ## How to Use
 
 1. **Save the script**:
-   Save the script as `data_cleaning.py` on your local machine.
+   Save the script as `main.py` on your local machine.
 
 2. **Run the script**:
-   ```bash
-   python data_cleaning.py
+```bash
+python main.py
+```
 
 3. **Input file path**:
    When prompted, provide the path to the data file (CSV or Excel) to clean.
@@ -29,4 +30,3 @@ This Python script is designed to clean data in CSV or Excel files by:
 ### Notes:
 - The script expects date columns to contain the word "date" in their names (case-insensitive).
 - Non-numeric columns will have missing values filled with "Unknown", and string columns will be converted to lowercase.
-

@@ -45,4 +45,3 @@ if __name__ == "__main__":
     # Close all connections
     for conn in connections:
         conn.close()
-

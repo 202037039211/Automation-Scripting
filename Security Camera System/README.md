@@ -18,14 +18,14 @@ This Python script implements a security camera system that uses YOLOv5 for pers
 ## Installation:
 1. Clone this repository.
 2. Install required libraries:
-    ```bash
-    pip install opencv-python torch pygame
-    ```
+```bash
+pip install opencv-python torch pygame
+```
 3. Adjust the `model` loading line if needed for other YOLOv5 models or configurations.
 4. Run the script with:
-    ```bash
-    python security_camera_system.py
-    ```
+```bash
+python main.py
+```
 
 ## Usage:
 1. Launch the script and draw a polygon to define the region of interest (ROI) where person detection should be active.
@@ -34,4 +34,3 @@ This Python script implements a security camera system that uses YOLOv5 for pers
 
 ## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
-

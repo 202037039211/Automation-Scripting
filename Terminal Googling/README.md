@@ -14,19 +14,17 @@ This Python script allows you to perform Google searches directly from the termi
 ## Installation:
 1. Clone this repository or download the script.
 2. Install the `googlesearch-python` library:
-    ```bash
-    pip install googlesearch-python
-    ```
+```bash
+pip install googlesearch-python
+```
 
 ## Usage:
 1. Run the script:
-    ```bash
-    python terminal_googling.py
-    ```
-
+```bash
+python main.py
+```
 2. Enter the search query when prompted.
 3. The top 10 results for your query will be printed in the terminal.
 
 ## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
-

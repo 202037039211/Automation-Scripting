@@ -6,8 +6,8 @@ from collections import Counter, defaultdict
 from datetime import datetime
 
 # Configuration
-LOG_FILE = os.path.expanduser("~/log_analyzer_test/server.log")  # Path to the server log file
-REPORT_FILE = os.path.expanduser("~/log_analyzer_test/log_report.txt")  # Path for the summary report output
+LOG_FILE = os.path.expanduser("path/to/server.log")  # Path to the server log file
+REPORT_FILE = os.path.expanduser("path/to/log_report.txt")  # Path for the summary report output
 
 # Regular expressions for parsing logs (adjust patterns to match log format)
 timestamp_pattern = r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}'
@@ -88,4 +88,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

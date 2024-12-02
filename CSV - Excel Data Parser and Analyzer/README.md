@@ -11,4 +11,4 @@ This script analyzes data from a provided CSV or Excel file and generates summar
 To install the required libraries, run:
 ```bash
 pip install pandas openpyxl
-
+```

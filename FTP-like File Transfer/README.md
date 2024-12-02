@@ -23,4 +23,3 @@ This project implements a simple file transfer system using sockets in Python. I
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-

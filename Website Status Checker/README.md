@@ -15,9 +15,9 @@ This Python script monitors the status of websites and sends an email alert when
 ## Installation:
 1. Clone this repository or download the script.
 2. Install the required libraries:
-    ```bash
-    pip install requests
-    ```
+```bash
+pip install requests
+```
 
 ## Configuration:
 - Set your email credentials in the script (`SMTP_USER`, `SMTP_PASS`).
@@ -26,12 +26,10 @@ This Python script monitors the status of websites and sends an email alert when
 
 ## Usage:
 1. Run the script:
-    ```bash
-    python website_status_checker.py
-    ```
-
+```bash
+python main.py
+```
 2. The script will continuously monitor the websites and log their status.
 
 ## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
-

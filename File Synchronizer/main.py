@@ -3,8 +3,8 @@ import shutil
 from datetime import datetime
 
 # Configuration
-SOURCE_DIR = os.path.expanduser("~/source_dir")  # Change to your source directory
-DESTINATION_DIR = os.path.expanduser("~/destination_dir")  # Change to your destination directory
+SOURCE_DIR = os.path.expanduser("path/to/source_dir")  # Change to your source directory
+DESTINATION_DIR = os.path.expanduser("path/to/destination_dir")  # Change to your destination directory
 LOG_FILE = os.path.expanduser("$DESTINATION_DIR/sync_log.txt")
 
 def sync_directories():
@@ -35,4 +35,3 @@ def sync_directories():
 
 if __name__ == "__main__":
     sync_directories()
-

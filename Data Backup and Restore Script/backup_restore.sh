@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration: Set these paths according to your needs
-BACKUP_SOURCE="$HOME/importantFiles"               # Files or directories to back up
-BACKUP_DESTINATION="$HOME/importantFiles_archive"  # Location to store backup archives
+BACKUP_SOURCE="path/to/importantFiles"               # Files or directories to back up
+BACKUP_DESTINATION="path/to/importantFiles_archive"  # Location to store backup archives
 LOG_FILE="$BACKUP_DESTINATION/backup_log.txt"      # Log file path
 
 # Create Backup and Destination directories if they don't exist
@@ -57,4 +57,3 @@ case $CHOICE in
     2) restore ;;  # Call restore function
     *) echo "Invalid option. Please select 1 or 2." ;;  # Handle invalid choice
 esac
-

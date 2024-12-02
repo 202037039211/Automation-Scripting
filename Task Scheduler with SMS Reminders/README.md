@@ -14,16 +14,18 @@ This Python script schedules reminders to be sent via SMS using Twilio. It inclu
 
 ## Installation:
 1. Clone this repository.
+
 2. Install required libraries:
-    ```bash
-    pip install schedule twilio
-    ```
+```bash
+pip install schedule twilio
+```
+
 3. Replace the Twilio credentials in the script with your own account SID, authentication token, and phone numbers.
 
 4. Run the script with:
-    ```bash
-    python task_scheduler.py
-    ```
+```bash
+python main.py
+```
 
 ## Usage:
 1. The script will start the task scheduler, which will run in the background.
@@ -32,4 +34,3 @@ This Python script schedules reminders to be sent via SMS using Twilio. It inclu
 
 ## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
-

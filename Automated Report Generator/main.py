@@ -43,4 +43,3 @@ def write_report(metrics):
 if __name__ == "__main__":
     system_metrics = gather_system_metrics()  # Gather system data
     write_report(system_metrics)  # Write data to the report file
-

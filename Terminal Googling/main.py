@@ -17,4 +17,3 @@ def terminal_googling():
 
 if __name__ == "__main__":
     terminal_googling()  # Run the terminal googling function
-

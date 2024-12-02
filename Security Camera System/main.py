@@ -149,4 +149,3 @@ if 'out' in locals():
 
 cap.release()
 cv2.destroyAllWindows()
-

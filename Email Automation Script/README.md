@@ -21,7 +21,7 @@ Before running the script, configure the following:
 ## How to Use
 
 1. **Save the script**:
-   Save the script as `email_automation.py` on your local machine.
+   Save the script as `main.py` on your local machine.
 
 2. **Configure Mailgun**:
    Update the `MAILGUN_DOMAIN` and `MAILGUN_API_KEY` variables with your Mailgun details.
@@ -30,8 +30,9 @@ Before running the script, configure the following:
    Create a CSV file named `recipients.csv` with email addresses in the first column.
 
 4. **Run the script**:
-   ```bash
-   python email_automation.py
+```bash
+python main.py
+```
 
 5. **Check the results**:
    The script will send an email to each recipient and print a success message or an error if the email fails.
